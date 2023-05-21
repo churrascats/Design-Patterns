@@ -1,5 +1,11 @@
+package shape;
+
+import color.IColor;
+
 public abstract class Shape {
-    private String name;
+    public String name;
+
+    protected IColor color;
 
     public String getName() {
         return name;
@@ -9,8 +15,10 @@ public abstract class Shape {
         this.name = name;
     }
 
-    public Shape(String name) {
+    public Shape(String name, IColor color) {
         this.name = name;
+        this.color = color;
     }
 
+    abstract public void displayColor();
 }
