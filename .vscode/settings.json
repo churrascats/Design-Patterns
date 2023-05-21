@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "creational_patterns/Singleton",
+        "Creational Patterns/Singleton",
+        "Creational Patterns/Prototype/Deep Copy",
+        "Creational Patterns/Factory Method",
+        "Creational Patterns/Builder",
+        "Creational Patterns/Abstract Factory",
+        "structural_patterns/bridge"
+    ],
+    "java.dependency.syncWithFolderExplorer": true
+}
