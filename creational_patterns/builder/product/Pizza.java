@@ -17,7 +17,7 @@ public class Pizza {
         this.sausage = sausage;
     }
 
-    public void getPizzaRecipe(){
+    public void getPizzaRecipe() {
         String result = "This pizza has: \n";
 
         result += "Size = " + size + "\n";
